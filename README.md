@@ -37,12 +37,7 @@
       <a href="https://sw.kovidgoyal.net/kitty/binary/">here</a>.
     </li>
     <li>
-      Clone this repository and copy the configuration file(s) to your Kitty config directory:
-      <pre><code>
-git clone https://github.com/yourusername/kitty-config.git
-mkdir -p ~/.config/kitty
-cp kitty.conf ~/.config/kitty/
-      </code></pre>
+      Copy the configuration file(s) to your Kitty config directory:
     </li>
     <li>Restart Kitty to apply the changes.</li>
   </ol>
