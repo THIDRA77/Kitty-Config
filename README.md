@@ -48,5 +48,59 @@
     Refer to the official <a href="https://sw.kovidgoyal.net/kitty/conf.html">Kitty documentation</a> 
     for available options.
   </p>
+  <h3>My Configuration file: </h3>
+  <code>
+    # kitty.conf - Configuración para un aspecto similar a la imagen
+
+# Colores (MBcolors)
+foreground            #c0caf5
+background            #1a1b26
+selection_foreground  #c0caf5
+selection_background  #33467c
+url_color            #9ece6a
+cursor               #c0caf5
+cursor_text_color    #1a1b26
+active_border_color  #7aa2f7
+inactive_border_color #444b6a
+bell_border_color    #ff9e64
+
+color0  #15161e
+color1  #f7768e
+color2  #9ece6a
+color3  #e0af68
+color4  #7aa2f7
+color5  #bb9af7
+color6  #7dcfff
+color7  #a9b1d6
+color8  #414868
+color9  #f7768e
+color10 #9ece6a
+color11 #e0af68
+color12 #7aa2f7
+color13 #bb9af7
+color14 #7dcfff
+color15 #c0caf5
+
+# Fuente
+font_family      FiraCode Nerd Font
+bold_font       auto
+italic_font     auto
+bold_italic_font auto
+font_size       11.0
+
+# Transparencia (si lo permite el compositor)
+background_opacity 0.9
+
+# Bordes y padding
+window_padding_width 10
+window_border_width 2
+
+# Ajustes adicionales
+enable_audio_bell no
+shell_integration no
+
+# Deshabilita la barra de pestañas
+hide_window_decorations no
+  </code>
 </body>
 </html>
