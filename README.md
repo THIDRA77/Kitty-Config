@@ -102,7 +102,6 @@ shell_integration no
 
 # Deshabilita la barra de pestañas
 hide_window_decorations no
-
 ```
 
 </body>
