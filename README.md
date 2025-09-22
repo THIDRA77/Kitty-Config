@@ -49,20 +49,21 @@
     for available options.
   </p>
   <h3>My Configuration file: </h3>
-  <code>
-    # kitty.conf - Configuración para un aspecto similar a la imagen
+
+```conf
+# kitty.conf - Configuración para un aspecto similar a la imagen
 
 # Colores (MBcolors)
 foreground            #c0caf5
 background            #1a1b26
 selection_foreground  #c0caf5
 selection_background  #33467c
-url_color            #9ece6a
-cursor               #c0caf5
-cursor_text_color    #1a1b26
-active_border_color  #7aa2f7
+url_color             #9ece6a
+cursor                #c0caf5
+cursor_text_color     #1a1b26
+active_border_color   #7aa2f7
 inactive_border_color #444b6a
-bell_border_color    #ff9e64
+bell_border_color     #ff9e64
 
 color0  #15161e
 color1  #f7768e
@@ -82,11 +83,11 @@ color14 #7dcfff
 color15 #c0caf5
 
 # Fuente
-font_family      FiraCode Nerd Font
-bold_font       auto
-italic_font     auto
-bold_italic_font auto
-font_size       11.0
+font_family       FiraCode Nerd Font
+bold_font         auto
+italic_font       auto
+bold_italic_font  auto
+font_size         11.0
 
 # Transparencia (si lo permite el compositor)
 background_opacity 0.9
@@ -101,6 +102,6 @@ shell_integration no
 
 # Deshabilita la barra de pestañas
 hide_window_decorations no
-  </code>
+
 </body>
 </html>
